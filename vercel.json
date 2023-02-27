@@ -1,6 +1,6 @@
 {
   "builds": [{
-    "src": "elevate/wsgi.py",
+    "src": "RochadEnterprises/wsgi.py",
     "use": "@vercel/python",
     "config": {
       "maxLambdaSize": "15mb", "runtime": "python3.10"
@@ -8,6 +8,6 @@
   }],
   "routes": [{
     "src": "/(.*)",
-    "dest": "elevate/wsgi.py"
+    "dest": "RochadEnterprises/wsgi.py"
   }]
 }
