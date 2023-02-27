@@ -5,9 +5,6 @@ from django.contrib import messages
 from .models import Message
 
 # Create your views here.
-def index(request):
-    return render(request, 'index.html')
-
 def service(request):
     return render(request, 'services.html')
 
@@ -34,7 +31,7 @@ def contact(request):
         return redirect('home')
     return render(request, 'Contact.html')
 
-def home(request):
+def index(request):
     if request.method == 'POST':
         fname = request.POST['fname']
         email = request.POST['email']
@@ -49,7 +46,7 @@ def home(request):
 
         contactus_info.save()
         return redirect('home')
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 
 def signup(request):
     if request.method == 'POST':
