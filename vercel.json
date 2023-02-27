@@ -3,7 +3,7 @@
     "src": "elevate/wsgi.py",
     "use": "@vercel/python",
     "config": {
-      "maxLambdaSize": "15mb", "runtime": "python3.10.5"
+      "maxLambdaSize": "15mb", "runtime": "python3.10"
     }
   }],
   "routes": [{
