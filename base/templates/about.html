@@ -1,0 +1,55 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
+                    <h6 class="section-title mb-0">About Me</h6>
+                    <h6 class="section-subtitle mb-4">software Developer</h6>
+                    <img src="{% static 'imgs/img-7.jpg' %}" alt="" class="w-100 mt-3 shadow-sm">
+                </div>
+                <div class="col-md-6 pl-md-5">
+                    <div class="row">
+                        <div class="col-12 mt-4">
+                            <p><b>Background</b><br>
+                            <p>My name is Elvis Njaramba a highly self-driven software developer who brings more than two years writing code and more than three years in the technology field. Dedicated and experienced professional with proven skills in developing softwares which are upto standards. I seek challenging situations so I can apply my knowledge and come up with a solution to the current problem.</p>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p><b>Education</b><br>
+                            <p></p>
+                            <p>I'm a self-taught web and software developer majorly skilled in python and javascript programming languages. I've been programming for more than two years with the help of youtube tutorials and free courses online and continuously practiced to master and advance my skills. I'm also a student at Machakos University persuing Bachelors of Science in Information Technology. I'm also a student at the ALX_Africa fullstack software engineering program.</p>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p><b>Skills</b><br>
+                            <p>As a python developer, I have majored my skills in Django, webscraping and desktop software development. Some examples of Python libraries I have used and developed software in include tkinter, speech recognition, pandas, selenium, beautifulsoup, requests etc. </p>
+                            <p>I started my javascript journey recently and so as to understand and be fluent with the javascript syntax, I upload projects meant for beginners on github. In a few weeks I will be more familiar and fluent with the language syntax and rules. </p>
+                            <p>Python and javascript programming are just a few of the skills I have acquired in the technology field. Data structures and alogorithms, networking, linux commandline and web application pentesting are other fields I've worked in and gained industry level skills.  </p>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p><b>Hobbies</b><br>
+                            <p>While free I enjoy playing chess, bike riding or go for a swim. I also enjoy listening to music or watch a movie. I find songs and movies not only entertaining but also educative.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End OF About Section -->
+
+<!-- core  -->
+    <script src="{% static 'vendors/jquery/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="{% static 'vendors/bootstrap/bootstrap.affix.js' %}"></script>
+
+    <!-- Isotope -->
+    <script src="{% static 'vendors/isotope/isotope.pkgd.js' %}"></script>
+
+    <!-- LeadMark js -->
+    <script src="{% static 'js/Rochad.js' %}"></script>
+
+{% endblock %}

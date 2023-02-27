@@ -1,0 +1,64 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<!-- Service Section -->
+    <section  id="service" class="section pt-0">
+        <div class="container">
+            <h6 class="section-title text-center" >Services</h6>
+            <h6 class="section-subtitle text-center mb-5 pb-3">Software Development and IT Consultations</h6>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">01</small>
+                            <marquee>
+                            <h6 class="card-title mt-3">Fullstack Web Development</h6>
+                            </marquee>
+                            <p class="mb-0">In need of a CHEAP, SECURE and QUALITY website?</p>
+                            <br>
+                            <p>I'm an experienced fullstack web developer with a track record of delivering cool web designs which are as per with the clients request.<br> Websites can help boost your business and I'm here to make it easier and cheaper for you to take your business online and discovery a while new world of opportunities.<br> I will also host the website online for you at a very affordable price. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">02</small>
+                            <marquee>
+                            <h6 class="card-title mt-3">Software Development</h6>
+                            </marquee>
+                            <p class="mb-0">I develop any kind of software requested by the client. Python is the language I use and I find it very effective since it has a lot of libraries one can choose from after determining the software to develop. I assure a program with zero errors and very user friendly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">03</small>
+                            <marquee>
+                            <h6 class="card-title mt-3">IT Consultant</h6>
+                            </marquee>
+                            <p class="mb-0">Devices can be hard to use sometimes or they may break down, worry less since I'm here to help you. I can troubleshoot, advice or recommed the best solution for the problem you are currently facing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End OF Service Section -->
+
+<!-- core  -->
+    <script src="{% static 'vendors/jquery/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="{% static 'vendors/bootstrap/bootstrap.affix.js' %}"></script>
+
+    <!-- Isotope -->
+    <script src="{% static 'vendors/isotope/isotope.pkgd.js' %}"></script>
+
+    <!-- LeadMark js -->
+    <script src="{% static 'js/Rochad.js' %}"></script>
+{% endblock %}

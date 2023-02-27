@@ -1,0 +1,151 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <h6 class="section-title text-center">My Portfolio</h6>
+            <h6 class="section-subtitle mb-5 text-center">New stunning projects for our amazing clients</h6>
+            <div class="filters">
+                <a href="#" data-filter=".new" class="active">
+                    All
+                </a>
+                <a href="#" data-filter=".advertising">
+                   Django
+                </a>
+                <a href="#" data-filter=".web">
+                    Python
+                </a>
+                <a href="#" data-filter=".branding">
+                    Javascript
+                </a>
+            </div>
+            <div class="portfolio-container">
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/header-2.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/header-2.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="" style="color:white;">Python</a></h6>
+                                <p class="subtitle">This are projects I develop in Python</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/hoodie.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/hoodie.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="" style="color:white;">Python</a></h6>
+                                <p class="subtitle">This are projects I develop in Python</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/img-2.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/img-2.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="" style="color:white;">Python</a></h6>
+                                <p class="subtitle">This are projects I develop in Django</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/dev-1.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/dev-1.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="" style="color:white;">Django</a></h6>
+                                <p class="subtitle">This are projects I develop in Django</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/dev-3.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                       <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/dev-3.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="" style="color:white;">Django</a></h6>
+                                <p class="subtitle">This are projects I develop in Python</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/dev-4.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/dev-4.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="" style="color:white;">Django</a></h6>
+                                <p class="subtitle">This are projects I develop in Django</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 branding new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/img-3.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/img-3.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="" style="color:white;">JavaScript</a></h6>
+                                <p class="subtitle">This are projects I develop in Javascript</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/img-0.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/img-0.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="" style="color:white;">JavaScript</a></h6>
+                                <p class="subtitle">This are projects I develop in JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/img-1.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/img-1.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="" style="color:white;">JavaScript</a></h6>
+                                <p class="subtitle">This are projects I develop in Javascript</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- End of portfolio section -->
+
+<!-- core  -->
+    <script src="{% static 'vendors/jquery/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="{% static 'vendors/bootstrap/bootstrap.affix.js' %}"></script>
+
+    <!-- Isotope -->
+    <script src="{% static 'vendors/isotope/isotope.pkgd.js' %}"></script>
+
+    <!-- LeadMark js -->
+    <script src="{% static 'js/Rochad.js' %}"></script>
+
+{% endblock %}

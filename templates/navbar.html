@@ -1,0 +1,73 @@
+{% load static %}
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>TM Space</title>
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" >
+<section>
+    <div style="background-image: url(imgs/header-2.jpg)">
+  <!-- ***** Header Area Start ***** -->
+          <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="{% static 'imgs/logo.svg' %}" alt="">
+                </a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                  <!-- ***** Menu Start ***** -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto" >
+                      <li class="nav-item">
+                        <a class="nav-link" href="{% url 'home' %}">Home</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="{% url 'service' %}" target="_blank">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'portfolio' %}" target="_blank">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'about' %}" target="_blank">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'contact' %}" target="_blank">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            <!-- ***** Menu End ***** -->
+          </nav>
+    </div>
+  <!-- Page Header -->
+    <header class="header">
+      <div class="overlay">
+                                <p class="hero-job-desc" style="font-size: large; font-weight: bold;" >T-Marcel</p>
+
+          <div class="hero-content">
+            <!-- MARQUEE -->
+              <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-3" href=''><i class="fab fa-twitter" <img src="{% static 'imgs/fb.webp' %}"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-3" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+        </div>
+      </div>
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z"/>
+            </svg>
+        </div>
+         <div class="hero-arrow page-scroll home-arrow-down">
+            <a class="" href="#colophon"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+        </div>
+        <!-- /.hero-arrow -->
+        </div>
+
+    </header>
+    <!-- End Of Page Header -->
+</section>
+</body>

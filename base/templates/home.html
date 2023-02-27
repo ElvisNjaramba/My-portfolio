@@ -1,0 +1,284 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<!-- Service Section -->
+    <section  id="service" class="section pt-0">
+        <h6 class="section-title text-center" >Services</h6>
+        <h6 class="section-subtitle text-center mb-5 pb-3">Software Development and IT Consultations</h6>
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 mb-md-0">
+                            <div class="card-body">
+                                <small class="text-primary font-weight-bold">01</small>
+                                <marquee>
+                                <h6 class="card-title mt-3" style="font-weight: bolder;">Fullstack Web Development</h6>
+                                </marquee>
+                                <p class="mb-0" style="font-weight: bold;">In need of a CHEAP, SECURE and QUALITY website?</p>
+                                <br>
+                                <p>I'm an experienced fullstack web developer with a track record of delivering cool web designs which are as per with the clients request.<br> Websites can help boost your business and I'm here to make it easier and cheaper for you to take your business online and discovery a while new world of opportunities.<br> I will also host the website online for you at a very affordable price. </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">02</small>
+                            <marquee>
+                            <h6 class="card-title mt-3" style="font-weight: bold;">Software Development</h6>
+                            </marquee>
+
+                            <p class="mb-0">I develop any kind of software requested by the client. Python is the language I use and I find it very effective since it has a lot of libraries one can choose from after determining the software to develop. I assure a program with zero errors and very user friendly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">03</small>
+                            <marquee>
+                            <h6 class="card-title mt-3" style="font-weight: bold;">IT Consultant</h6>
+                            </marquee>
+
+                            <p class="mb-0">Devices can be hard to use sometimes or they may break down, worry less since I'm here to help you. I can troubleshoot, advice or recommed the best solution for the problem you are currently facing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+     </marquee>
+    <!-- End OF Service Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <h6 class="section-title text-center">My Portfolio</h6>
+            <h6 class="section-subtitle mb-5 text-center">New stunning projects for our amazing clients</h6>
+            <div class="filters">
+                <a href="#" data-filter=".new" class="active">
+                    All
+                </a>
+                <a href="#" data-filter=".advertising">
+                   Django
+                </a>
+                <a href="#" data-filter=".web">
+                    Python
+                </a>
+                <a href="#" data-filter=".branding">
+                    Javascript
+                </a>
+            </div>
+            <div class="portfolio-container">
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/header-2.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/header-2.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="https://github.com/TariqMarcel/Python-Projects/tree/main/Web%20scrapping" style="color: white;" target="_blank">Web Scrapper</a></h6>
+                                <p class="subtitle" style="color: black; font-weight: bold;">This is a webscraper I made in Python. It scrapes data from times job website and filter the recent the recent python jobs and the link to the job description. It then stores the data in a csv file in an organized manner. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/hoodie.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/hoodie.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="https://github.com/TariqMarcel/Python-Projects/tree/main/Qr" style="color: white;" target="_blank">QRCode generator</a></h6>
+                                <p class="subtitle" style="color: black; font-weight: bold;">It is a python program that allows a user to input a title and an entry field to input the content they want generated to a Qr. It accept text or links as input.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/img-2.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/img-2.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="https://github.com/TariqMarcel/Simple-Reverse-Shell" style="color: white;" target="_blank">socket</a></h6>
+                                <p class="subtitle" style="color: black; font-weight: bold;">As a cybersecurity enthuthiast and IT expert I found the need to develop a client and C2 program. This can help while perfoming updates, checking the eventlogs and tasks running, deleting or creating files etc on computer on the same network.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/dev-1.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/dev-1.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="https://github.com/TariqMarcel/Studyspace" style="color: white;" target="_blank">study space</a></h6>
+                                <p class="subtitle" style="color: black; font-weight: bold;">StudySpace is a study app in Django that anyone can join and create a room, introduce a topic and other users can join the room and contribute to the topic.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/dev-3.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                       <div class="content-holder">
+                            <a class="img-popup" href="{% url 'contact' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="https://github.com/TariqMarcel/My-portfolio" style="color: white;" target="_blank">My Portfolio</a></h6>
+                                <p class="subtitle" style="color: black; font-weight: bold;">This is the source code of the current website. I developed it in Django and uses the default sqlite database. For the front-end I used HTML, CSS and Javascript.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/img-3.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/img-3.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="https://github.com/TariqMarcel/Javascript-for-beginners/tree/main/People%20counter" style="color: white;" target="_blank">people counter</a></h6>
+                                <p class="subtitle" style="color: black; font-weight: bold;">This is a simple Javascript meant to help beginners in Javascript practice their skills. It is made meant to teach how to use variables, functions and getting HTML elements by id.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding new">
+                    <div class="portfolio-item">
+                        <img src="{% static 'imgs/img-0.jpg' %}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="{% static 'imgs/img-0.jpg' %}"></a>
+                            <div class="text-holder">
+                                <h6 class="title"><a href="https://github.com/TariqMarcel/Javascript-for-beginners/tree/main/Rock%20Paper%20Scissors" style="color: white;" target="_blank">Rock Paper Scissors</a></h6>
+                                <p class="subtitle" style="color: black; font-weight: bold;">This is a simple Javascript meant to help beginners in Javascript practice their skills. It allows a user to input a choice and the computer also picks a choice, the results of the winner are displayed on the results section. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of portfolio section -->
+
+<!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
+                    <h6 class="section-title mb-0">About Me</h6>
+                    <h6 class="section-subtitle mb-4">software Developer</h6>
+                    <img src="{% static 'imgs/img-7.jpg' %}" alt="" class="w-100 mt-3 shadow-sm">
+                </div>
+                <div class="col-md-6 pl-md-5">
+                    <div class="row">
+                        <div class="col-12 mt-4">
+                            <p><b>Background</b><br>
+                            <p>My name is Elvis Njaramba a highly self-driven software developer who brings more than two years writing code and more than three years in the technology field. Dedicated and experienced professional with proven skills in developing softwares which are upto standards. I seek challenging situations so I can apply my knowledge and come up with a solution to the current problem.</p>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p><b>Education</b><br>
+                            <p></p>
+                            <p>I'm a self-taught web and software developer majorly skilled in python and javascript programming languages. I've been programming for more than two years with the help of youtube tutorials and free courses online and continuously practiced to master and advance my skills. I'm also a student at Machakos University persuing Bachelors of Science in Information Technology. I'm also a student at the ALX_Africa fullstack software engineering program.</p>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p><b>Skills</b><br>
+                            <p>As a python developer, I have majored my skills in Django, webscraping and desktop software development. Some examples of Python libraries I have used and developed software in include tkinter, speech recognition, pandas, selenium, beautifulsoup, requests etc. </p>
+                            <p>I started my javascript journey recently and so as to understand and be fluent with the javascript syntax, I upload projects meant for beginners on github. In a few weeks I will be more familiar and fluent with the language syntax and rules. </p>
+                            <p>Python and javascript programming are just a few of the skills I have acquired in the technology field. Data structures and alogorithms, networking, linux commandline and web application pentesting are other fields I've worked in and gained industry level skills.  </p>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p><b>Hobbies</b><br>
+                            <p>While free I enjoy playing chess, bike riding or go for a swim. I also enjoy listening to music or watch a movie. I find songs and movies not only entertaining but also educative.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End OF About Section -->
+
+        <div class="mouse-icon"><div class="wheel">
+            <a class="" href="#colophon"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+        </div>
+        </div>
+
+    <!-- Contact Section -->
+        <!-- Contact Section -->
+    <section id="contact" class="section has-img-bg pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 my-3">
+                    <h6 class="mb-0">Phone</h6>
+                    <p class="mb-4">+254 795002100</p>
+
+                    <h6 class="mb-0">Address</h6>
+                    <p class="mb-4">Nairobi, Kenya</p>
+
+                    <h6 class="mb-0">Email</h6>
+                    <p class="mb-0">elvisnjaramba11@gmail.com</p>
+                    <div style="padding-top: 5%;">
+                    <h6 class="mb-0">Follow Me</h6>
+                    <div class="d-flex justify-content-start mb-0">
+                        <a class="btn btn-lg btn-secondary btn-lg-square mr-3" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg btn-secondary btn-lg-square mr-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-secondary btn-lg-square mr-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-secondary btn-lg-square mr-3" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <form method="POST" action="">
+                        <h4 class="mb-4">Drop Us A Line</h4>
+                        <div class="form-row">
+                            {% csrf_token %}
+                            {{ form.as_p }}
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="fname" placeholder="Name">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input type="email" class="form-control text-white rounded-0 bg-transparent" name="email" placeholder="Email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Message"></textarea>
+
+                            </div>
+                            <div class="form-group col-12 mb-0">
+                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Page Footer -->
+            <footer class="mt-5 py-4 border-top border-secondary">
+                <p class="mb-0 small" align="center">&copy; <script>document.write(new Date().getFullYear())</script>, <a href="https://www.devcrud.com" target="_blank">Rochad Ent Ltd</a>  All rights reserved </p>
+            </footer>
+            <!-- End of Page Footer -->
+        </div>
+    </section>
+
+
+
+
+	<!-- core  -->
+    <script src="{% static 'vendors/jquery/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="{% static 'vendors/bootstrap/bootstrap.affix.js' %}"></script>
+
+    <!-- Isotope -->
+    <script src="{% static 'vendors/isotope/isotope.pkgd.js' %}"></script>
+
+    <!-- LeadMark js -->
+    <script src="{% static 'js/Rochad.js' %}"></script>
+
+{% endblock %}
