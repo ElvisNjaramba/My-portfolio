@@ -6,6 +6,7 @@
       "maxLambdaSize": "15mb", "runtime": "python3.10"
     }
   }],
+  
   "routes": [{
     "src": "/(.*)",
     "dest": "RochadEnterprises/wsgi.py"
